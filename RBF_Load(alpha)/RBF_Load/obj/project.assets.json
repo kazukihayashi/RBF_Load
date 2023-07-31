@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Grasshopper/7.30.23163.13001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.30.23163.13001]"
+        },
+        "compile": {
+          "lib/net48/GH_IO.dll": {},
+          "lib/net48/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net48/_._": {}
+        },
+        "build": {
+          "build/net48/Grasshopper.targets": {}
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net48/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/net48/MathNet.Numerics.dll": {}
+        }
+      },
+      "RhinoCommon/7.30.23163.13001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Eto.dll": {},
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Eto.dll": {},
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {}
+        },
+        "build": {
+          "build/net48/RhinoCommon.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/7.30.23163.13001": {
+      "sha512": "RGhaJ2Wt8aLmGMVhE5ztmoThkE5ByxJnUPt1j0AELtcjDcfX86O0Fpc4cAYosqrun5Rsvkmrtt3ckvsyvM30FQ==",
+      "type": "package",
+      "path": "grasshopper/7.30.23163.13001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/Grasshopper.targets",
+        "grasshopper.7.30.23163.13001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net48/GH_IO.XML",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "MathNet.Numerics/5.0.0": {
+      "sha512": "pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "type": "package",
+      "path": "mathnet.numerics/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/net48/MathNet.Numerics.dll",
+        "lib/net48/MathNet.Numerics.xml",
+        "lib/net5.0/MathNet.Numerics.dll",
+        "lib/net5.0/MathNet.Numerics.xml",
+        "lib/net6.0/MathNet.Numerics.dll",
+        "lib/net6.0/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.5.0.0.nupkg.sha512",
+        "mathnet.numerics.nuspec"
+      ]
+    },
+    "RhinoCommon/7.30.23163.13001": {
+      "sha512": "CN8G8y5cb7MGY4uFTM4UiL5jP+OLDFXYKWmhD1WJJx5dy+dx3ISae3GJqx504IOjAUhNgD2YZNt1B2np5PwudQ==",
+      "type": "package",
+      "path": "rhinocommon/7.30.23163.13001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/net48/RhinoCommon.targets",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.XML",
+        "lib/net48/RhinoCommon.dll",
+        "rhinocommon.7.30.23163.13001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Grasshopper >= 7.30.23163.13001",
+      "MathNet.Numerics >= 5.0.0",
+      "RhinoCommon >= 7.30.23163.13001"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dream\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\RBF_Load.csproj",
+      "projectName": "RBF_Load",
+      "projectPath": "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\RBF_Load.csproj",
+      "packagesPath": "C:\\Users\\dream\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dream\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Grasshopper": {
+            "include": "Compile, Build",
+            "target": "Package",
+            "version": "[7.30.23163.13001, )"
+          },
+          "MathNet.Numerics": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "RhinoCommon": {
+            "target": "Package",
+            "version": "[7.30.23163.13001, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

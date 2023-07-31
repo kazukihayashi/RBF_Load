@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\RBF_Load.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\RBF_Load.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\RBF_Load.csproj",
+        "projectName": "RBF_Load",
+        "projectPath": "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\RBF_Load.csproj",
+        "packagesPath": "C:\\Users\\dream\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dream\\Documents\\Research\\RBF_antifunicular\\RBF_Load(alpha)\\RBF_Load\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dream\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Grasshopper": {
+              "include": "Compile, Build",
+              "target": "Package",
+              "version": "[7.30.23163.13001, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "RhinoCommon": {
+              "target": "Package",
+              "version": "[7.30.23163.13001, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
