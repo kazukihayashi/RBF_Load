@@ -9,6 +9,7 @@ This Grasshopper component provides a method for obtaining funicular surfaces th
 
 ### RBF_Load(warm)
 The source codes (written in C#) of the main contribution. "warm" refers to a warm start, which is a technique where an algorithm is initialized with a solution obtained from a previous run.
+The compiled gh file is available at food4Rhino: https://www.food4rhino.com/en/app/rbfload
 
 ### RBF_Load(cold)
 The source codes (written in C#)  for comparing the computational efficiency between warm and cold starts. The cold start uses the initial shape as an initial solution without prior information about the solutions obtained from previous runs.
