@@ -1,9 +1,10 @@
 # RBF_Load
 This Grasshopper component provides a method for obtaining funicular surfaces that pass through desired points through load control. The method involves generating smooth load distributions via RBF interpolation of nodal loads, which are repeatedly adjusted until the equilibrium shape is close enough to the target points.
 
-<img width="952" alt="ex2_init_shape" src="https://github.com/kazukihayashi/RBF_Load/assets/25089369/96a8bd45-1553-44ed-b1e7-89fedabc6a2c">
-<img width="952" alt="ex2_opt_shape" src="https://github.com/kazukihayashi/RBF_Load/assets/25089369/212e72f6-454c-4466-a145-870e08b72185">
-<img width="952" alt="ex2_load" src="https://github.com/kazukihayashi/RBF_Load/assets/25089369/f5d9ee18-1789-4f94-86d2-19a717ced652">
+<img width="952" alt="ex2_init_shape" src="https://github.com/kazukihayashi/RBF_Load/assets/25089369/b0cd27a0-526b-4963-8a12-c7c3920574df">
+<img width="952" alt="ex2_opt_shape" src="https://github.com/kazukihayashi/RBF_Load/assets/25089369/138e9f08-9e01-42f6-b7d2-296b4ed6e2c8">
+<img width="952" alt="ex2_load" src="https://github.com/kazukihayashi/RBF_Load/assets/25089369/aa12c98f-08be-420f-b717-7babd7c7fd1c">
+
 
 ## Folder/File description
 
